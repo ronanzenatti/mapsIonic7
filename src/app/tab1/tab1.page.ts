@@ -28,7 +28,7 @@ export class Tab1Page {
           lat: 33.6,
           lng: -117.9,
         },
-        zoom: 8,
+        zoom: 1,
       },
     });
     this.getLocation();

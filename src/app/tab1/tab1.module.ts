@@ -6,8 +6,10 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     IonicModule,
     CommonModule,
@@ -17,4 +19,4 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
   ],
   declarations: [Tab1Page]
 })
-export class Tab1PageModule {}
+export class Tab1PageModule { }

@@ -45,7 +45,8 @@ export class Tab1Page {
       coordinate: {
         lat: coordinates.coords.latitude,
         lng: coordinates.coords.longitude
-      }
+      },
+      zoom: 15
     });
     this.setMarker(coordinates);
   }
